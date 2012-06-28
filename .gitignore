@@ -1,9 +1,5 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-
+# Folders
+.DS_Store
+/ignore
 # Project property files
-.actionScriptProperties
-.flexProperties
-.settings/
-.project
+
