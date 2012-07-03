@@ -3,7 +3,7 @@ coming more soon
 needs bootstrap
 */
 body{
-	background-image: url(/asset/broken_noise.png);
+	background-image: url(asset/broken_noise.png);
 }
 
 #head, #foot{
