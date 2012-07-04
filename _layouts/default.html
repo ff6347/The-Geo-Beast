@@ -36,6 +36,20 @@
     
 	<div class="container-fluid">
 			{{ content }}
+
+      <div class="span10 offset1">
+          <div class="span10 offset1">
+        <h5>History / Notes / News</h5>
+         {% for post in site.posts %}
+        <ul>
+          <li>   
+            <a href="/The-Geo-Beast/{{ post.url }}">{{ post.title }}</a>
+          </li>
+        </ul>
+       {% endfor %}
+    </div>
+        
+      </div>
 		<div class="span12" id="footlinks">
 	<br>
     <br>
