@@ -17,6 +17,7 @@ title: The Geo Beast
 <a href="thebeast.html"><img src="asset/foot.png" alt="The Beast" id="foot"></a>
 
 </div>
+
 <br>
 <div class="span10 offset1" id="zombiedance">
 	<h5>Oh and don't forget that zombies dance @ voodoo parties!</h5>
@@ -27,4 +28,16 @@ title: The Geo Beast
 	<br>
 <br>
 <br>
+
+	<div class="span10 offset1">
+				<h5>History / Notes / News</h5>
+				 {% for post in site.posts %}
+				<ul>
+					<li>   
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</li>
+				</ul>
+			 {% endfor %}
+		</div>
 </div>
+

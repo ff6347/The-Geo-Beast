@@ -6,19 +6,35 @@
     <meta name="description" content="The-Geo-Beast" />
     <meta name="author" content="fabiantheblind" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 
 <!--   <link rel="stylesheet" href="/AEMap/asset/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/AEMap/asset/css/style.css" type="text/css" /> -->
+  <!-- google tracking -->
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33148416-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body>
+    
 	<div class="container-fluid">
 			{{ content }}
 		<div class="span12" id="footlinks">
-			This site is build by <a href="http://fabiantheblind.github.com/"> fabiantheblind</a> using <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a> and <a href="http://subtlepatterns.com/">subtlepatterns</a>.
+	<br>
+    <br>
+    		This site is build by <a href="http://fabiantheblind.github.com/"> fabiantheblind</a> using <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a> and <a href="http://subtlepatterns.com/">subtlepatterns</a>.
 		</div>
 	</div>
 </body>
