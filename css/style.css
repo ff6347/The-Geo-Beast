@@ -3,8 +3,31 @@ coming more soon
 needs bootstrap
 */
 body{
-/*	background-image: url(../asset/broken_noise.png);*/
+	background-image: url(../asset/exclusive_paper.png);
+	font-family: Georgia;
 }
+
+A:link{
+	color: #78a197;
+}
+A:visited{
+	color:#bfbfbf;
+}
+A:active{
+	color: #5dbea6;
+}
+A:hover{
+color:#c9c9c9;
+text-decoration: none;
+}
+
+
+
+#vid{
+	text-align: center;
+	height: 100%;
+	}
+
 
 #head, #foot{
 	
@@ -14,29 +37,14 @@ body{
     margin-right: auto;
 }
 
-#header{
-/*	background-image: url(../asset/broken_noise.png);*/
-	
-}
-
-#footer{
-/*	background-image: url(../asset/broken_noise.png);*/
-}
 
 
-#content{
 
-padding-left: 17%;
-padding-right: 17%;
-background-color: white;
-
-}
-
-/*{
-	max-width: 1280px;
-	width: 100%;
+#footlinks{
 	text-align: center;
-	    margin-left: auto;
-    margin-right: auto;
-	
-}*/
+/*	position:absolute;
+	 bottom:0;
+	 width:100%;
+	 height:60px;   /* Height of the footer *!/*/
+}
+

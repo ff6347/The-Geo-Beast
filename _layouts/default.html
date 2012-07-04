@@ -3,15 +3,23 @@
 <head lang="de">
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="MT4D" />
+    <meta name="description" content="The-Geo-Beast" />
     <meta name="author" content="fabiantheblind" />
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
 <!--   <link rel="stylesheet" href="/AEMap/asset/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/AEMap/asset/css/style.css" type="text/css" /> -->
 
 </head>
 <body>
-		{{ content }}
+	<div class="container-fluid">
+			{{ content }}
+		<div class="span12" id="footlinks">
+			This site is build by <a href="http://fabiantheblind.github.com/"> fabiantheblind</a> using <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a> and <a href="http://subtlepatterns.com/">subtlepatterns</a>.
+		</div>
+	</div>
 </body>
 </html>
