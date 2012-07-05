@@ -3,17 +3,19 @@ layout: page
 title: History / Notes / News 
 ---  
 
-<h1>This is some kind of blog news log</h1>
-<p>Right now ther is nothing fancy here. But in time i will keep you up to date what is going on with The Beast.</p>
+<h1>This is some kind of blog / news / notes / log</h1>
+<p>Right now ther is nothing fancy here. But in time i will keep you up to date what is going on with The Beast. This is also the content of the RSS feed.</p>
       <div class="span10 offset1"></div>
-          <div class="span10 offset1">
+
+          <div class="span10 offset1" id="history">
         <h5>History / Notes / News</h5>
          {% for post in site.posts %}
-        <ul>
-          <li>   
-            <a href="/The-Geo-Beast{{ post.url }}">{{ post.title }}</a>
-          </li>
-        </ul>
+
+         <h3> <span>{{ post.date | date_to_string }} &rArr;</span> <a href="/The-Geo-Beast{{ post.url }}">{{ post.title }}</a></h3>
+            <p>
+            	{{ post.content | strip_html | truncate 300  }}
+          
+ 
        {% endfor %}
     </div>
         
