@@ -49,7 +49,10 @@ h1,h2,h3,h4,h5,h6{
 #header a:link{
 
 	color: #78a197;
-	text-decoration: underline;
+text-decoration:none;
+
+padding-bottom:2px;
+border-top: 1px dotted #c3c3c3;
 }
 
 #header ul{
@@ -78,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
 	letter-spacing: .1em;
 	display: list-item;
 	text-decoration: underline;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 #thecontent{
