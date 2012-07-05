@@ -17,16 +17,17 @@ em {
 
 
 A:link{
+
 	color: #78a197;
 }
 A:visited{
-	color:#bfbfbf;
+	color: #7d7b7b;
 }
 A:active{
 	color: #5dbea6;
 }
 A:hover{
-color:#c9c9c9;
+color: #06fea2;
 text-decoration: none;
 }
 
