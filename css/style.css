@@ -2,10 +2,19 @@
 coming more soon
 needs bootstrap
 */
-body{
+
+body {
 	background-image: url(../asset/exclusive_paper.png);
-	font: 1.1em Georgia;
+
+  font: normal 400 1.1em/1.1em "calluna", "Georgia";
 }
+strong {
+  font: normal 700 "calluna", "Georgia";
+}
+em {
+  font: italic 400 "calluna", "Georgia";
+}
+
 
 A:link{
 	color: #78a197;
@@ -22,6 +31,10 @@ text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6{
+ font-family: "adelle","calluna","Georgia";
+/*  font: normal 400 "adelle", "Georgia";*/
+
+/*  font-family: "adelle", "Georgia";*/
 	margin-top: 1.5em;
 }
 
