@@ -68,10 +68,10 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0px 0px 0px 10px;
 	float: left;
-	font-size: 0.8em;
 	letter-spacing: .1em;
 	display: list-item;
-	
+	text-decoration: underline;
+	font-size: 0.9em;
 }
 
 #thecontent{
