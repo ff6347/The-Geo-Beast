@@ -40,9 +40,16 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 0.8em;
 }
 
+
 #header{
 	height: 13px;
 	background-color: #000000;
+}
+
+#header a:link{
+
+	color: #78a197;
+	text-decoration: underline;
 }
 
 #header ul{
