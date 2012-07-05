@@ -34,32 +34,30 @@
 </script>
 </head>
 <body>
+
     
 	<div class="container">
 
-			{{ content }}
-
-      <div class="span10 offset1">
-          <div class="span10 offset1">
-        <h5>History / Notes / News</h5>
-         {% for post in site.posts %}
-        <ul>
-          <li>   
-            <a href="/The-Geo-Beast{{ post.url }}">{{ post.title }}</a>
-          </li>
-        </ul>
-       {% endfor %}
+    <div id="header" class="span10 offset1">
+      <ul>
+        <li><a href="/The-Geo-Beast/">home</a></li>
+        <li><a href="thebeast.html">about</a></li>
+        <li><a href="history.html">history</a></li>
+        <li><a href="disqus.html">comment</a></li>
+        <li><a href="http://fabiantheblind.github.com/The-Geo-Beast/atom.xml">rss</a></li>
+        <li><a href="zombiedance.html">relax</a></li>
+      </ul>
     </div>
-        
-      </div>
+   
+<div id="thecontent">      {{ content }}</div>
 
 
 
-		<div class="span12" id="footlinks">
+
+		<div class="span10 offset1" id="footlinks">
 	<br>
     <br>
     		This site is build by <a href="http://fabiantheblind.github.com/"> fabiantheblind</a> using <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a> and <a href="http://subtlepatterns.com/">subtlepatterns</a>.<br>
-        Stay tuned via <a href="/The-Geo-Beast/atom.xml">rss!</a>
 		</div>
 	</div>
 </body>

@@ -21,7 +21,45 @@ color:#c9c9c9;
 text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6{
+	margin-top: 1.5em;
+}
 
+#header{
+	height: 13px;
+	background-color: #000000;
+}
+
+#header ul{
+	float: right;
+	list-style-type: none;
+	margin: 0px 15px 0px 0px;
+	padding: 5px 0px 0px;
+	vertical-align: baseline;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+	
+}
+
+#header li{
+
+
+	margin: 0;
+	padding: 0px 0px 0px 10px;
+	float: left;
+	font-size: 0.8em;
+	letter-spacing: .1em;
+	display: list-item;
+	
+}
+
+#thecontent{
+	margin-top: 40px;
+}
 
 #vid{
 	text-align: center;
@@ -54,5 +92,6 @@ margin-bottom:2em;}
 
     font-size: 0.8em;
 	margin-bottom: 2em;
+	border-top: 1px solid #ffffff;
 }
 
