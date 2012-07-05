@@ -19,6 +19,11 @@ A really can't tell. But when it is done you will be notified via "The Web".
 
 -----------------
 
+###Will this script be open-source?
+Yes it shure will. I use so many open source ressources I would ruin my karma if I charge you for that. But still - some support is great. So it will be "Name Your Own Price" on aescripts.    
+
+-----------------
+
 ###Why do you call it The Beast?  
 Managing geodata is allways a pain in the ass. I've used to create geo projects at the university and it always made me nuts. If you start doing that. Be aware that it is a rabbits hole. There are thousends of diffrent geo data types, map projections, tools and images out there in the wastelands of the world wide world of webs. So you can get lost or be eaten by that beast.  
 Also  I digg names like "openSesame", "Ease and Wizz", "Zorro-The-Layer-Tagger" or "Magnum The Edit Detector". These are good ideas and keep life on the funny side.
