@@ -91,7 +91,8 @@ border-bottom: 1px dotted #c3c3c3;
 
 #vid{
 	text-align: center;
-	height: 100%;
+	
+	
 	}
 
 
@@ -121,3 +122,82 @@ list-style-type:none;
 	border-top: 1px solid #ffffff;
 }
 
+
+/*****************************************************************************
+/* 
+/* MEDIA QUERIES
+**********************************************************/
+
+
+/* Landscape phones and down*/
+ @media (max-width: 480px) {
+ 
+ #vid{
+ 
+ 	height: 200px;
+
+ 	
+ 	
+ 	}
+ 
+  	#header li{
+  	
+ 
+  		font-size: 0.9em;
+  	}
+ 
+ }
+
+/* Landscape phone to portrait tablet*/
+
+ @media (max-width: 767px) { 
+ 
+ #vid{
+ 
+ 	height: 300px;
+ 	
+ 	}
+ 	
+ 	 	#header li{
+ 	 	
+ 	
+ 	 		font-size: 0.9em;
+ 	 	}
+ 
+  }
+
+/*Portrait tablet to landscape and desktop*/
+ @media (min-width: 768px) and (max-width: 979px) {
+ 
+ #vid{
+
+ 	height: 500px;
+ 	
+ 	}
+ 
+  }
+
+/* Large desktop*/
+
+ @media (min-width: 980px) and (max-width: 1199px) { 
+ 
+ #vid{
+
+ 	height: 550px;
+ 	
+ 	}
+ 
+  }
+ 
+
+ @media (min-width: 1200px) { 
+ 
+ 
+ #vid{
+ 	text-align: center;
+ 	height: 600px;
+ 	
+ 	}
+ 
+  }
+ 
