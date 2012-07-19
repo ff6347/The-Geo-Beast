@@ -113,6 +113,20 @@ margin-bottom:2em;}
 #history ul{
 list-style-type:none;
 }
+
+#idl{
+ text-align:center;
+	padding-top: 3em;
+
+}
+
+img#idl{
+
+	max-width: 100px;
+	max-height: 100px;
+}
+
+
 #footlinks{
 	text-align: center;
 	
