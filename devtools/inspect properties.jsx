@@ -1,0 +1,1 @@
+﻿prop (app.project.selection[0]);function prop (f) {$.writeln (f.reflect.name);var props = f.reflect.properties;var array = [];for (var i = 0; i < props.length; i++)try {array.push (props[i].name + ": " + f[props[i].name])} catch (_){} array.sort ();$.writeln (array.join ("\r"));}
