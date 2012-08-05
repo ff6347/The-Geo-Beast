@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>GeoCommonsJSON</title>
+	<!-- <script type="text/javascript" scr="GeoCommonsJSON.js"></script> -->
+</head>
+	<body>
+		<h1>GeoCommons JSON parser</h1>
+		<p>Drag the link below into your bookmark bar for getting the bookmarklet</p>
+	<button><a href="javascript:(function(){var currURL=document.URL;var dataSetID=currURL.match('([0-9]+)');var dataSetURL='http://geocommons.com/overlays/'+dataSetID[0]+'/features.json?geojson=1';dataSetJSON=window.open(dataSetURL,'GeoCommonsJSON');}());">THe-Geo-Beast Bookmarklet</a></button>
+		<p>Then visit <a href="http://geocommons.com/">GeoCommons.org</a> and choose a dataset (not a map!).</p>
+		<p>Then hit the bookmarklet an the JSON file will oben in a new window.</p>
+		<p>Now hit "save as ..." to save the JSON or copy &amp; paste into your favorite text editor.</p>
+		<p>Have fun!</p>
+	</body>
+</html>
