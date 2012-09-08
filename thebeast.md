@@ -12,12 +12,13 @@ It is aimed to be a After Effects CS4+ script for creating georeferenced graphic
 ##Downloads  
 
 
-<input class="btn btn-large" type="button" id="bttn" onclick="window.open('https://github.com/downloads/fabiantheblind/The-Geo-Beast/The-Geo-Beast_BETA_v01.zip','_self')" value="The-Geo-Beast Script" /> 
-<br>
-<input class="btn btn-large" type="button" id="bttn" onclick="window.open('/The-Geo-Beast/GeoJsonToWavefrontOBJ.zip','_self')" value="GeoJson 2 OBJ Sketch" />
+- [The-Geo-Beast Script](https://github.com/downloads/fabiantheblind/The-Geo-Beast/The-Geo-Beast_BETA_v01.zip) 4 After Effects  
+- [GeoJson 2 OBJ](/The-Geo-Beast/GeoJsonToWavefrontOBJ.zip) Processing Sketch  
+- [The world.geo.json](https://github.com/johan/world.geo.json/zipball/master) by [johan](https://github.com/johan)  
+- as used in [AEMap Script](http://aescripts.com/aemap/)  
+- [The Nervous System](http://n-e-r-v-o-u-s.com/tools/obj.php) obj export lib  
+- [The JSON-processing](https://github.com/agoransson/JSON-processing/downloads) json handling lib  
 
-<br>  
-<br>  
   
 -----------------------  
   
