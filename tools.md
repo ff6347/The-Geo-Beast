@@ -24,3 +24,34 @@ title: Tools
 <p>5. Have fun!</p>
 
 
+##The Processing OBJ Exporter  
+creating obj from GEOJson for AE 2012
+@author fabiantheblind   
+using processing libraries:  
+<a href="http://n-e-r-v-o-u-s.com/tools/obj.php">n-e-r-v-o-u-s obj export</a><br>
+<code>import nervoussystem.obj.*;</code>
+
+<a href="https://github.com/agoransson/JSON-processing">JSON 4 processing </a><br>
+<code>import org.json.*;</code>
+
+
+###YOUR OPTIONS
+- Hit 'o' or 'O' for .obj export (this will also write a report)  
+- Hit 'i' or 'I' for to write an .jpg file of that view  
+- Hit 'r' or 'R' for the report  
+
+####Define your filename in this way:
+it has to be the exact name without extension  
+
+<code>String GEOJsonFilename = "countries.geo";</code>
+
+####HOW TO MAP LAT LON TO A EQUIRECTANGULAR MAP
+- latitude is y  
+-- latitude = +90 || y = 0   
+-- latitude = -90 || y = 180  
+
+- longitude is x  
+-- longitude  -180 || x = 0  
+-- longitude  +180 || x = 360  
+
+So the coordiantae space has to be pushed into the center and the latitude has to be reversed to fit the AE and the Processing coord space. The base size is 360 width x 180 height.

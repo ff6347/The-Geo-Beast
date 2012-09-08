@@ -7,7 +7,7 @@ title: The Beast
 That means there will be some bugs, or some helptips missing, or a strange name on some buttons, but I really need feedback so I can smooth out the bumps and develop some new ideas.  
 
 ##Basic Idea / Usage
-It is aimed to be a After Effects CS4+ script for creating georeferenced graphics. The idea is to use a [Json](http://www.json.org/) specification called [GeoJson](http://www.geojson.org/) to create points, linestrings polygons and multipolygons. These can be created using differnet techniques. You can write them yourself. Just dive into the GeoJson specifications. There are already lots of datasets available at [GeoCommons](http://geocommons.com) that can be used. Have a look @ the tutorials on how to create and use that data. If there are bugs report them on the [comment page](/The-Geo-Beast/disqus.html) or enter an [issue on github](https://github.com/fabiantheblind/The-Geo-Beast/issues).  
+It is aimed to be a After Effects CS4+ script for creating georeferenced graphics. The idea is to use a [Json](http://www.json.org/) specification called [GeoJson](http://www.geojson.org/) to create points, linestrings polygons and multipolygons. These can be created using differnet techniques. You can write them yourself. Just dive into the GeoJson specifications. There are already lots of datasets available at [GeoCommons](http://geocommons.com) that can be used. Have a look @ the tutorials on how to create and use that data. If there are bugs report them on the [comment page](http://fabiantheblind.github.com/The-Geo-Beast/disqus.html) or enter an [issue on github](https://github.com/fabiantheblind/The-Geo-Beast/issues).  
   
 ##Downloads  
 
@@ -22,7 +22,7 @@ It is aimed to be a After Effects CS4+ script for creating georeferenced graphic
 -----------------------  
   
 ##Tutorial Part 1 of 3   
-This is the first part on how to create datasets that can be used. It is shown how to use google earth in combination with geocommons for that. Go to [the tools site](/The-Geo-Beast/tools.html) to get the bookmarklet that makes the geocommons api call for you.  
+This is the first part on how to create datasets that can be used. It is shown how to use google earth in combination with [geocommons](http://geocommons.com) for that. Go to [the tools site](http://fabiantheblind.github.com/The-Geo-Beast/tools.html) to get the bookmarklet that makes the geocommons api call for you.  
  
 
 <div class="videocontainer">
@@ -64,9 +64,14 @@ In this last part I will show you how to use large datasets with a thousends of 
 
 ##Resources  
 There are lots of sites out there where you can get and create geodata. This is a collection of links where you can look. I will add some more over time. If you find some good data leave a message at the comments.    
-- [Geo Names](http://www.geonames.org) lots of cities with data as .tsv or .csv  
+###Geo Data
+- [Geo Names](http://www.geonames.org) lots of cities with data as .tsv or .csv convert them via [geocommons](http://geocommons.com)  
 - [Geo Commons](http://geocommons.com) The site used in the tutorial  
 - [Get Lat Lon ](http://www.getlatlon.com) A google maps tool that gets locations  
+
+###Geo Coding  
+- [Processing geo information in Wikipedia articles](http://tillnagel.com/2009/12/processing-geo-information-in-wikipedia-articles/)  
+
 
 {% comment %}
 

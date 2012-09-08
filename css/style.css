@@ -7,6 +7,7 @@ body {
 	background-image: url(../asset/exclusive_paper.png);
 
   font: normal 400 1.1em/1.1em "calluna", "Georgia";
+  line-height: 1.4em;
 }
 strong {
   font: normal 700 "calluna", "Georgia";
