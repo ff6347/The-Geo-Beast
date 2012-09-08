@@ -47,7 +47,7 @@ it has to be the exact name without extension
 
 <code>String GEOJsonFilename = "countries.geo";</code>
 
-####HOW TO MAP LAT LON TO A EQUIRECTANGULAR MAP
+####How To Map Lat Lon To A Equirectangular Map  
 - latitude is y  
 -- latitude = +90 || y = 0   
 -- latitude = -90 || y = 180  
@@ -56,4 +56,4 @@ it has to be the exact name without extension
 -- longitude  -180 || x = 0  
 -- longitude  +180 || x = 360  
 
-So the coordiantae space has to be pushed into the center and the latitude has to be reversed to fit the AE and the Processing coord space. The base size is 360 width x 180 height.
+So the coordiantae space has to be pushed into the center and the latitude has to be reversed to fit the AE and the Processing coordinate space. The base size is 360 width x 180 height.
