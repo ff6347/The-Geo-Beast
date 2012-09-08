@@ -25,13 +25,14 @@ title: Tools
 
 
 ##The Processing OBJ Exporter  
-creating obj from GEOJson for AE 2012
+creating obj from GEOJson for AE 2012  
+get it [here-->](https://github.com/downloads/fabiantheblind/The-Geo-Beast/GeoJsonToWavefrontOBJ.zip)
 @author fabiantheblind   
 using processing libraries:  
 <a href="http://n-e-r-v-o-u-s.com/tools/obj.php">n-e-r-v-o-u-s obj export</a><br>
 <code>import nervoussystem.obj.*;</code>
 
-<a href="https://github.com/agoransson/JSON-processing">JSON 4 processing </a><br>
+<a href="https://github.com/agoransson/JSON-processing">JSON 4 processing</a><br>
 <code>import org.json.*;</code>
 
 
