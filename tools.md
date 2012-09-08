@@ -28,7 +28,7 @@ title: Tools
 creating obj from GEOJson for AE 2012  
 get it [here-->](https://github.com/downloads/fabiantheblind/The-Geo-Beast/GeoJsonToWavefrontOBJ.zip)  
   
-@author fabiantheblind   
+author [@fabiantheblind](http://fabiantheblind.github.com)   
 using processing libraries:  
 <a href="http://n-e-r-v-o-u-s.com/tools/obj.php">n-e-r-v-o-u-s obj export</a><br>
 <code>import nervoussystem.obj.*;</code>
@@ -37,7 +37,7 @@ using processing libraries:
 <code>import org.json.*;</code>
 
 
-###YOUR OPTIONS
+###Your Options
 - Hit 'o' or 'O' for .obj export (this will also write a report)  
 - Hit 'i' or 'I' for to write an .jpg file of that view  
 - Hit 'r' or 'R' for the report  
