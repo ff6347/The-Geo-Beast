@@ -28,7 +28,7 @@ This is the first part on how to create datasets that can be used. It is shown h
 
 <div class="videocontainer">
 
-<iframe src="http://player.vimeo.com/video/46971862" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/46971862">The-Geo-Beast-Beta-Demo Part I</a> <br>
+<iframe src="http://player.vimeo.com/video/46971862" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/46971862">The-Geo-Beast-Beta-Demo Part I</a> <br>
 
 <br>
 </p>  
@@ -42,7 +42,7 @@ This is the first part on how to create datasets that can be used. It is shown h
 In this part you will learn how to use this data in After Effects. If you downloaded [the AEMap Script](http://aescripts.com/aemap/) you already have the world_geo_json folder with the world map data and the countries.zip. If not go over and grap the AEMap script or download the world map and the seprate countries directly from the [creator johan](https://github.com/johan/world.geo.json/zipball/master). This will get you started. If will try to provide some more example files that are free to use.  
 
 <div class="videocontainer">
-<iframe src="http://player.vimeo.com/video/47004870" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/47004870">The-Geo-Beast-Beta-Demo Part II</a> <br>
+<iframe src="http://player.vimeo.com/video/47004870" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/47004870">The-Geo-Beast-Beta-Demo Part II</a> <br>
 
 </p>	
 <br>
@@ -57,7 +57,7 @@ In this part you will learn how to use this data in After Effects. If you downlo
 In this last part I will show you how to use large datasets with a thousends of features. You can download the used [processing sketch here](/The-Geo-Beast/GeoJsonToWavefrontOBJ.zip), the used [Wavefront .obj lib](http://n-e-r-v-o-u-s.com/tools/obj.php) here and the [json lib here](https://github.com/agoransson/JSON-processing/downloads).  
 
 <div class="videocontainer">
-<iframe src="http://player.vimeo.com/video/47007404" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/47007404">The-Geo-Beast-Beta-Demo Part III</a></p>
+<iframe src="http://player.vimeo.com/video/47007404" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/47007404">The-Geo-Beast-Beta-Demo Part III</a></p>
 <br>
 </div>  
 
