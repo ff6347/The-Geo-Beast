@@ -42,7 +42,7 @@ title: Tools
 
 ##The [Processing](http://processing.org) OBJ Exporter  
 creating obj from GEOJson for AE 2012  
-get it [here-->](https://github.com/downloads/fabiantheblind/The-Geo-Beast/GeoJsonToWavefrontOBJ.zip)  
+get it [here-->](http://fabiantheblind.github.com/GeoJson2obj/)  
   
 author [@fabiantheblind](http://fabiantheblind.github.com)   
 using processing libraries:  
