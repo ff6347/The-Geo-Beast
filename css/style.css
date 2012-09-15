@@ -94,7 +94,13 @@ text-align: left;
 
 }
 #thecontent{
-	margin-top: 40px;
+	margin-top: 50px;
+}
+
+.container{
+
+	margin-top: -20px;
+
 }
 
 #vid{
@@ -155,16 +161,6 @@ img#idl{
 }
 
 
-179
-180
-181
-182
-183
-184
-185
-186
-187
-188
 body {
   margin-top: 1.0em;
   color: #000000;
