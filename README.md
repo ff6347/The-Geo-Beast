@@ -1,8 +1,13 @@
 The-Geo-Beast
 =============
 
-##The Beast is still under development.  
-That means there will be some bugs, or some helptips missing, or a strange name on some buttons, but I really need feedback so I can smooth out the bumps and develop some new ideas.  
+##~~The Beast is still under development.~~  
+
+~~That means there will be some bugs, or some helptips missing, or a strange name on some buttons, but I really need feedback so I can smooth out the bumps and develop some new ideas.~~  
+
+##~~The Beast is totally deprecated.~~  
+
+Just head over to aescripts.com and get AEMap and Locations  
 
 ###Basic Idea / Usage
 It is aimed to be a After Effects CS4+ script for creating georeferenced graphics. The idea is to use a [Json](http://www.json.org/) specification called [GeoJson](http://www.geojson.org/) to create points, linestrings polygons and multipolygons. These can be created using differnet techniques. You can write them yourself. Just dive into the GeoJson specifications. There are already lots of datasets available at [GeoCommons](http://geocommons.com) that can be used. Have a look @ the tutorials on how to create and use that data. If there are bugs report them on the [comment page](http://fabiantheblind.github.com/The-Geo-Beast/disqus.html) or enter an [issue on github](https://github.com/fabiantheblind/The-Geo-Beast/issues). Go to [fabiantheblind.github.com/The-Geo-Beast/](http://fabiantheblind.github.com/The-Geo-Beast/) 4 further infos.  
