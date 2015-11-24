@@ -5,7 +5,7 @@ The-Geo-Beast
 
 ~~That means there will be some bugs, or some helptips missing, or a strange name on some buttons, but I really need feedback so I can smooth out the bumps and develop some new ideas.~~  
 
-##~~The Beast is totally deprecated.~~  
+##The Beast is totally deprecated.  
 
 Just head over to aescripts.com and get AEMap and Locations  
 
